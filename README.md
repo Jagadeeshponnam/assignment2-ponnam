@@ -13,5 +13,13 @@ the airport that is closest to the museum is Rajiv Gandhi International Airport,
     * High Court
     * State Central Library
 * the Osmania General Hospital
+_ _ _
+
+| City | Location | Time |
+|-----|-----------|-----|
+| Hyderabad | Golconda | 1Day |
+| Bangalore | Mysore Palus | 2Days |
+| Goa | Goa Beach | 4Days |
+|Delhi | The Red Fort | 2Days |
 
 [this is about me](https://github.com/Jagadeeshponnam/assignment2-ponnam/blob/fb197f709c0ce2c1e14998abf76d34b7d5beac60/AboutMe.md)
