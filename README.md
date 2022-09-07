@@ -8,3 +8,8 @@ the airport that is closest to the museum is Rajiv Gandhi International Airport,
 2. take the walk to Lakdi-ka-pul
 3. take the subway to Osmania Medical College, then take the walk to Salar Jung Museum. 
 4. Alternatively, you can book the taxi direct to Salar Jung Museum.
+* The historic Charminar
+* Mecca Masjid
+    * High Court
+    * State Central Library
+* the Osmania General Hospital
