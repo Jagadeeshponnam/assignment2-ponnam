@@ -26,5 +26,33 @@ Look at the sky. We are not alone. The whole universe is friendly to us and cons
 
 We should not give up and we should not allow the problem to defeat us.
 *A. P. J. Abdul Kalam*
+_ _ _
+Replacements for setInterval Using requestAnimationFrame: 
+[more](https://css-tricks.com/snippets/)
+
+```
+var requestInterval = function (fn, delay) {
+  var requestAnimFrame = (function () {
+    return window.requestAnimationFrame || function (callback, element) {
+      window.setTimeout(callback, 1000 / 60);
+    };
+  })(),
+  start = new Date().getTime(),
+  handle = {};
+  function loop() {
+    handle.value = requestAnimFrame(loop);
+    var current = new Date().getTime(),
+    delta = current - start;
+    if (delta >= delay) {
+      fn.call();
+      start = new Date().getTime();
+    }
+  }
+  handle.value = requestAnimFrame(loop);
+  return handle;
+};
+
+```
+[more](https://css-tricks.com/snippets/javascript/replacements-setinterval-using-requestanimationframe/)
 
 [this is about me](https://github.com/Jagadeeshponnam/assignment2-ponnam/blob/fb197f709c0ce2c1e14998abf76d34b7d5beac60/AboutMe.md)
